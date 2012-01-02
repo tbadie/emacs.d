@@ -7,3 +7,6 @@
 [submodule "git/yasnippet"]
 	path = git/yasnippet
 	url = git://github.com/capitaomorte/yasnippet.git
+[submodule "git/anything-config"]
+	path = git/anything-config
+	url = git://repo.or.cz/anything-config.git
