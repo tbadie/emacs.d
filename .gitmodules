@@ -1,0 +1,9 @@
+[submodule "git/mysnippets"]
+	path = git/mysnippets
+	url = git@github.com:Enki-Prog/mysnippets.git
+[submodule "git/clang-complete"]
+	path = git/clang-complete
+	url = git@github.com:Enki-Prog/Emacs-clang-completion.git
+[submodule "git/yasnippet"]
+	path = git/yasnippet
+	url = git://github.com/capitaomorte/yasnippet.git
