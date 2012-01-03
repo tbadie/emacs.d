@@ -535,7 +535,7 @@
 (global-set-key [(control backspace)] 'backward-kill-word)
 (global-set-key [(delete)] 'delete-char)
 (global-set-key [(control delete)] 'kill-word)
-(global-set-key [(control h)] 'delete-backward-char) ;; ssh fix
+;; (global-set-key [(control h)] 'delete-backward-char) ;; ssh fix
 
 
 
@@ -860,6 +860,8 @@
  '(ido-mode (quote both) nil (ido))
  '(mail-signature t)
  '(require-final-newline t)
+ '(rst-level-face-base-color "grey")
+ '(rst-level-face-base-light 30)
  '(show-paren-mode t nil (paren))
  '(show-paren-style (quote parenthesis))
  '(speedbar-frame-parameters (quote ((minibuffer) (width . 20) (border-width . 0) (menu-bar-lines . 0) (tool-bar-lines . 0) (unsplittable . t) (set-background-color "black")))))
@@ -1564,3 +1566,9 @@ foo.cc and in the same directory as the current header file, foo.hh."
 
 
 (my-load-file "~/.emacs.d/git/clang-complete/src/clang-completion-mode.el")
+(custom-set-faces
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ )

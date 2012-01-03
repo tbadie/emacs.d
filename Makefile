@@ -1,4 +1,7 @@
-all:
+update:
+	git submodule update
+
+install:
 	git submodule update --init
 	wget http://sourceforge.net/projects/cedet/files/cedet/cedet-1.0.tar.gz/download
 	mkdir plugins/cedet
