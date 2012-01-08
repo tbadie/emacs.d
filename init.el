@@ -1576,3 +1576,27 @@ foo.cc and in the same directory as the current header file, foo.hh."
 
 (add-hook 'rst-mode-hook
           'flyspell-mode 1)
+
+;; (add-to-list 'load-path "~/auctex-11.86")
+
+(load "auctex.el" nil t t)
+(load "preview-latex.el" nil t t)
+
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+
+(setq-default TeX-master nil)
+
+;; A little tuto:
+;; C-c C-e: Insert environment
+;; C-c C-s: Insert heading
+;; C-c <RET>: Insert macro.
+;; C-c C-j in itemize: Insert new item.
+;; C-c C-r: Compile region
+;; C-c C-f C-b: Bold region
+;; C-c C-f C-i: Italic region
+;; C-c C-f C-e: Emphasis region.
+;; C-c ~: LaTeX-math-mode: ``' after backquote, expand. for example
+;;                         ` i => \in.
+;; C-c ;: comment a region
+;; C-c %: Comment a paragraph.
